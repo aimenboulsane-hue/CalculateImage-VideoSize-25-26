@@ -26,6 +26,7 @@ float video(int w, int h, int durationMovie, int durationCredits, int fps, char*
     } else if (strcmp(unit, "go") == 0) {
         return totalBytes / (1024.0f * 1024.0f * 1024.0f);
     }
-   return totalBytes;
    // YOUR CODE HERE - END
+       return 0;
+
 }
