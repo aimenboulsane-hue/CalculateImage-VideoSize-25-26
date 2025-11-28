@@ -28,5 +28,4 @@ float video(int w, int h, int durationMovie, int durationCredits, int fps, char*
     }
    return totalBytes;
    // YOUR CODE HERE - END
-   return 0;
 }
